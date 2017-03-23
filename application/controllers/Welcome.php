@@ -23,8 +23,8 @@ class Welcome extends CI_Controller {
 		$this->load->view('welcome_message');
 	}
 
-	// http://localhost/codeigniter/index.php/welcome/prueba
-	public function prueba(){
-		echo "Hola mundo!!!";
+	// http://localhost/codeigniter/index.php/welcome/prueba/parametro
+	public function prueba($parametro){
+		echo "El parámetro es: " . $parametro;
 	}
 }
