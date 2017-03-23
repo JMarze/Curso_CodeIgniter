@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = '';
+$config['base_url'] = 'http://localhost/codeigniter'; // http://www.educomser.com
 
 /*
 |--------------------------------------------------------------------------
@@ -64,7 +64,7 @@ $config['uri_protocol']	= 'REQUEST_URI';
 |
 | https://codeigniter.com/user_guide/general/urls.html
 */
-$config['url_suffix'] = '';
+$config['url_suffix'] = ''; // '.html' controlador/funcion/parametro.html
 
 /*
 |--------------------------------------------------------------------------
@@ -186,6 +186,12 @@ $config['enable_query_strings'] = FALSE;
 $config['controller_trigger'] = 'c';
 $config['function_trigger'] = 'm';
 $config['directory_trigger'] = 'd';
+
+// ejemplo.com/index.php/controlador/método/parametro
+// educomser.com/index.php/home/index/id=1
+
+// ejemplo.com/index.php?c=controlador&m=método
+// educomser.com/index.php?c=home&m=index&id=1
 
 /*
 |--------------------------------------------------------------------------
