@@ -9,7 +9,8 @@ class Prueba extends CI_Controller {
 
 		$datos = array(
 			'nombre' => 'J. Marcelo Arze',
-			'edad' => 45
+			'edad' => 45,
+			'cursos' => ['HTML5', 'CSS3', 'Php', 'Laravel']
 		);
 
 		$this->load->view('pruebas/index', $datos);
