@@ -6,6 +6,6 @@
 	</head>
 
 	<body>
-		<h1>Hola mi nombre es: <i>CodeIgniter</i></h1>
+		<h1>Hola mi nombre es: <i><?php echo $nombre; ?></i></h1>
 	</body>
 </html>

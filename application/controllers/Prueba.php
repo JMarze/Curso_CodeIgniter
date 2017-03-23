@@ -5,7 +5,9 @@ class Prueba extends CI_Controller {
 
 	// .../prueba
 	public function index(){
-		$this->load->view('pruebas/index');
+		$datos['nombre'] = 'J. Marcelo Arze';
+
+		$this->load->view('pruebas/index', $datos);
 	}
 
 }
