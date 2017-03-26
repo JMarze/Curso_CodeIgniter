@@ -6,6 +6,8 @@
 	</head>
 
 	<body>
+		<?php echo principal(); ?>
+		<br/>
 		<?php echo anchor('prueba', 'Ir a Prueba - Index'); ?>
 		<br/>
 		<?php echo anchor('/', 'Ir a Inicio'); ?>

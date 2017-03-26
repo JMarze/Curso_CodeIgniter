@@ -8,6 +8,9 @@ class Prueba extends CI_Controller {
 		parent::__construct();
 		// system/helpers/url_helper
 		$this->load->helper('url');
+
+		// application/helpers/titulos_helper
+		$this->load->helper('titulos');
 	}
 
 	// .../prueba
