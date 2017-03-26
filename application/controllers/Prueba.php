@@ -31,4 +31,12 @@ class Prueba extends CI_Controller {
 		$this->load->view('pruebas/helper');
 	}
 
+	// .../prueba/libreria
+	public function libreria(){
+		$this->load->library('menu', ['Inicio', '¿Quienes somos?', 'Blog', 'Contacto']);
+		$datos['menu_principal'] = $this->menu->construirMenu();
+
+		$this->load->view('pruebas/libreria', $datos);
+	}
+
 }
