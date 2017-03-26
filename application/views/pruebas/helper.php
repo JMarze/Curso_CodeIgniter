@@ -8,6 +8,9 @@
 	<body>
 		<?php echo principal(); ?>
 		<br/>
+		<?php echo titulo_principal('Blog'); ?>
+		<?php echo titulo_principal('CodeIgniter', 'helpers'); ?>
+		<br/>
 		<?php echo anchor('prueba', 'Ir a Prueba - Index'); ?>
 		<br/>
 		<?php echo anchor('/', 'Ir a Inicio'); ?>
